@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "1f582877f9b29779",
+    "type": "split",
+    "children": [
+      {
+        "id": "2bacb858d6e2113f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3530517a0fa02bbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "development/setup/Obsidian Setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec1f04ba5556d97b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3cdcd1d65e00960a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7e262982dc88103",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "304711037e415361",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f49d3ee039713c78",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4acd77f622e860f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "d818094a0b37a455",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c389ce513dc3bca8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "development/setup/Obsidian Setup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bdcd4b56b2d8ea89",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "development/setup/Obsidian Setup.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0081a039e6b6d0ba",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6993aa4027cc1f3c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "development/setup/Obsidian Setup.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3530517a0fa02bbe",
+  "lastOpenFiles": [
+    "development/setup/Full Stack Mern Setup - JavaScript.md",
+    "development/setup/Full Stack Mern Setup - Typescript.md",
+    "development/setup/Obsidian Setup.md",
+    "projects/Major Project 1/Project Ideas.md",
+    "learning/docker/Tutorial - Hitesh Chaudhary (Youtube).md",
+    "projects/Major Project 1",
+    "projects/Untitled.md",
+    "learning/google-cloud-console/Virtual Machine - Compute Engine.md",
+    "errors-solutions/development-errors/Cookie Error.md",
+    "learning/google-cloud-console",
+    "learning/docker",
+    "errors-solutions/Untitled.md",
+    "errors-solutions/development-errors",
+    "development/setup/Chrome Extension Setup V3 - Typescript.md",
+    "Untitled",
+    "development/setup",
+    "development/Untitled.md",
+    "errors-solutions",
+    "learning",
+    "projects",
+    "Untitled/Untitled",
+    "Welcome.md"
+  ]
+}
