@@ -5,10 +5,10 @@ Welcome to my personal documentation repository! This repo is a collection of al
 ## Folder Structure
 
 Below is an overview of the folder structure and what each section contains:
-### `/development
+### `/development`
 This section contains detailed guides and documentation organized by various topics:
 - **setup**: Setup of various software, tools, stacks, etc.
-### `/error-solutions
+### `/error-solutions`
 A collection of error logs and their corresponding solutions:
 - **development-errors**: Errors faced during development
 ### `/projects`
