@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2bacb858d6e2113f",
+        "id": "fd01093b52a78d7d",
         "type": "tabs",
         "children": [
           {
-            "id": "3530517a0fa02bbe",
+            "id": "925be70886ad5e9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development/setup/Obsidian Setup.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "development/setup/Obsidian Setup.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "development/setup/Obsidian Setup.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "development/setup/Obsidian Setup.md"
+                "file": "README.md"
               }
             }
           }
@@ -146,12 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3530517a0fa02bbe",
+  "active": "c7e262982dc88103",
   "lastOpenFiles": [
+    "projects/Major Project 1/Untitled.md",
+    "README.md",
+    "projects/Major Project 1/Project Ideas.md",
+    "Untitled",
+    "development/setup/Obsidian Setup.md",
     "development/setup/Full Stack Mern Setup - JavaScript.md",
     "development/setup/Full Stack Mern Setup - Typescript.md",
-    "development/setup/Obsidian Setup.md",
-    "projects/Major Project 1/Project Ideas.md",
     "learning/docker/Tutorial - Hitesh Chaudhary (Youtube).md",
     "projects/Major Project 1",
     "projects/Untitled.md",
@@ -162,7 +165,6 @@
     "errors-solutions/Untitled.md",
     "errors-solutions/development-errors",
     "development/setup/Chrome Extension Setup V3 - Typescript.md",
-    "Untitled",
     "development/setup",
     "development/Untitled.md",
     "errors-solutions",
