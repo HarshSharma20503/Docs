@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "development/setup/Obsidian Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "development/setup/Obsidian Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "development/setup/Obsidian Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "development/setup/Obsidian Setup.md"
               }
             }
           }
@@ -146,10 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c7e262982dc88103",
+  "active": "925be70886ad5e9e",
   "lastOpenFiles": [
-    "projects/Major Project 1/Untitled.md",
     "README.md",
+    "projects/Major Project 1/Untitled.md",
     "projects/Major Project 1/Project Ideas.md",
     "Untitled",
     "development/setup/Obsidian Setup.md",

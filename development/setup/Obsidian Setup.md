@@ -12,4 +12,5 @@
 - Set `default location of new canvas` to `same folder as current file` in `Canvas` Section.
 ## 3. Get the previous Vault
 
-- 
+- run the command `git clone https://github.com/HarshSharma20503/docs.git`
+- open the folder as vault in obsidian
