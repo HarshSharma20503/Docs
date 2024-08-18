@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning/typescript/Typescript - Hitesh Chaudhary (Youtube).md",
+                "file": "projects/major-project/Project Ideas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning/typescript/Typescript - Hitesh Chaudhary (Youtube).md",
+                "file": "projects/major-project/Project Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learning/typescript/Typescript - Hitesh Chaudhary (Youtube).md",
+                "file": "projects/major-project/Project Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning/typescript/Typescript - Hitesh Chaudhary (Youtube).md"
+                "file": "projects/major-project/Project Ideas.md"
               }
             }
           }
@@ -148,12 +148,17 @@
   },
   "active": "925be70886ad5e9e",
   "lastOpenFiles": [
+    "projects/Project Ideas.md",
+    "projects/major-project/Project Ideas.md",
+    "projects/project ideas/Untitled.md",
+    "projects/project ideas",
+    "projects/Ideas.md",
     "learning/git-github/Git-GitHub - Hitesh Chaudhary (Youtube).md",
-    "learning/typescript/Typescript - Hitesh Chaudhary (Youtube).md",
+    "learning/google-cloud-console/Virtual Machine - Compute Engine.md",
     "learning/mongodb/Aggregation Pipeline - Hitesh Chaudhary (Youtube).md",
+    "learning/typescript/Typescript - Hitesh Chaudhary (Youtube).md",
     "learning/docker/Docker - Hitesh Chaudhary (Youtube).md",
     "learning/typescript",
-    "projects/Major Project 1/Project Ideas.md",
     "learning/git-github",
     "development/setup/Chrome Extension Setup V3 - Typescript.md",
     "development/setup/Full Stack Mern Setup - JavaScript.md",
@@ -164,9 +169,7 @@
     "learning/Untitled.md",
     "projects/Major Project 1/Untitled.md",
     "Untitled",
-    "projects/Major Project 1",
-    "projects/Untitled.md",
-    "learning/google-cloud-console/Virtual Machine - Compute Engine.md",
+    "projects/major-project",
     "errors-solutions/development-errors/Cookie Error.md",
     "learning/google-cloud-console",
     "learning/docker",
@@ -174,7 +177,6 @@
     "errors-solutions/development-errors",
     "development/setup",
     "development/Untitled.md",
-    "errors-solutions",
     "Welcome.md"
   ]
 }
