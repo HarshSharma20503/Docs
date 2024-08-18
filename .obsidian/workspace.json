@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning/git-github/Git-GitHub - Hitesh Chaudhary (Youtube).md",
+                "file": "learning/typescript/Typescript - Hitesh Chaudhary (Youtube).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning/git-github/Git-GitHub - Hitesh Chaudhary (Youtube).md",
+                "file": "learning/typescript/Typescript - Hitesh Chaudhary (Youtube).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learning/git-github/Git-GitHub - Hitesh Chaudhary (Youtube).md",
+                "file": "learning/typescript/Typescript - Hitesh Chaudhary (Youtube).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning/git-github/Git-GitHub - Hitesh Chaudhary (Youtube).md"
+                "file": "learning/typescript/Typescript - Hitesh Chaudhary (Youtube).md"
               }
             }
           }
@@ -148,9 +148,11 @@
   },
   "active": "925be70886ad5e9e",
   "lastOpenFiles": [
-    "learning/docker/Docker - Hitesh Chaudhary (Youtube).md",
     "learning/git-github/Git-GitHub - Hitesh Chaudhary (Youtube).md",
+    "learning/typescript/Typescript - Hitesh Chaudhary (Youtube).md",
     "learning/mongodb/Aggregation Pipeline - Hitesh Chaudhary (Youtube).md",
+    "learning/docker/Docker - Hitesh Chaudhary (Youtube).md",
+    "learning/typescript",
     "projects/Major Project 1/Project Ideas.md",
     "learning/git-github",
     "development/setup/Chrome Extension Setup V3 - Typescript.md",
@@ -173,7 +175,6 @@
     "development/setup",
     "development/Untitled.md",
     "errors-solutions",
-    "learning",
     "Welcome.md"
   ]
 }
