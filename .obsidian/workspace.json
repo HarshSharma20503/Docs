@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/major-project/Project Ideas.md",
+                "file": "learning/react/Handle Change in React Forms.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/major-project/Project Ideas.md",
+                "file": "learning/react/Handle Change in React Forms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/major-project/Project Ideas.md",
+                "file": "learning/react/Handle Change in React Forms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/major-project/Project Ideas.md"
+                "file": "learning/react/Handle Change in React Forms.md"
               }
             }
           }
@@ -148,14 +148,17 @@
   },
   "active": "925be70886ad5e9e",
   "lastOpenFiles": [
-    "projects/Project Ideas.md",
+    "learning/react/Context API - Hitesh Chaudhary (Youtube).md",
+    "learning/react/Handle Change in React Forms.md",
+    "learning/mongodb/Aggregation Pipeline - Hitesh Chaudhary (Youtube).md",
     "projects/major-project/Project Ideas.md",
+    "learning/react",
+    "projects/Project Ideas.md",
     "projects/project ideas/Untitled.md",
     "projects/project ideas",
     "projects/Ideas.md",
     "learning/git-github/Git-GitHub - Hitesh Chaudhary (Youtube).md",
     "learning/google-cloud-console/Virtual Machine - Compute Engine.md",
-    "learning/mongodb/Aggregation Pipeline - Hitesh Chaudhary (Youtube).md",
     "learning/typescript/Typescript - Hitesh Chaudhary (Youtube).md",
     "learning/docker/Docker - Hitesh Chaudhary (Youtube).md",
     "learning/typescript",
@@ -175,7 +178,6 @@
     "learning/docker",
     "errors-solutions/Untitled.md",
     "errors-solutions/development-errors",
-    "development/setup",
     "development/Untitled.md",
     "Welcome.md"
   ]
