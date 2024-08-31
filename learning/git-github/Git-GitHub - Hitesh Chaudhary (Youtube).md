@@ -14,12 +14,12 @@
 ### Pulling from the Remote Repo using rebase
 
 ```bash
-`git pull --rebase`
-if the merge conflict arise than
-`git rebase --abort`
-than do it the normal way 
-`git pull`
-and resolve merge conflict through traditional ways.
+git pull --rebase
+# if the merge conflict arise than
+git rebase --abort
+# than do it the normal way 
+git pull
+# and resolve merge conflict through traditional ways.
 ```
 
 ### Stage a file
@@ -184,7 +184,7 @@ Go to settings→SSH GPG keys → new SSH key → authentication key
 
 `git remote -v` : It displays information about all configured remotes, including their URLs and the configured fetch refspec.
 
-`git remote add <name> <url>` : creates a shortcut named <name> for a remote Git repository at <URL>.
+`git remote add <name> <url>` : creates a shortcut named <name> for a remote Git repository at <URL>
 
 `git remote rename <old-name> <new-name>` : updates the local reference for a remote repository, changing its name from <old-name> to <new-name>pen_spark
 

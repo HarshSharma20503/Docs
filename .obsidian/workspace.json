@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning/react/Handle Change in React Forms.md",
+                "file": "development/setup/Node Backend Setup - Typescript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19bfeee96a656127",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning/react/Handle Change in React Forms.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learning/react/Handle Change in React Forms.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning/react/Handle Change in React Forms.md"
+                "file": "README.md"
               }
             }
           }
@@ -141,44 +154,48 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "daily-notes:Open today's daily note": false
     }
   },
-  "active": "925be70886ad5e9e",
+  "active": "19bfeee96a656127",
   "lastOpenFiles": [
-    "learning/react/Context API - Hitesh Chaudhary (Youtube).md",
-    "learning/react/Handle Change in React Forms.md",
-    "learning/mongodb/Aggregation Pipeline - Hitesh Chaudhary (Youtube).md",
-    "projects/major-project/Project Ideas.md",
-    "learning/react",
     "projects/Project Ideas.md",
-    "projects/project ideas/Untitled.md",
-    "projects/project ideas",
-    "projects/Ideas.md",
-    "learning/git-github/Git-GitHub - Hitesh Chaudhary (Youtube).md",
     "learning/google-cloud-console/Virtual Machine - Compute Engine.md",
-    "learning/typescript/Typescript - Hitesh Chaudhary (Youtube).md",
+    "projects/major-project/Project Ideas.md",
+    "learning/git-github/Git-GitHub - Hitesh Chaudhary (Youtube).md",
     "learning/docker/Docker - Hitesh Chaudhary (Youtube).md",
-    "learning/typescript",
-    "learning/git-github",
-    "development/setup/Chrome Extension Setup V3 - Typescript.md",
-    "development/setup/Full Stack Mern Setup - JavaScript.md",
-    "development/setup/Full Stack Mern Setup - Typescript.md",
+    "learning/mongodb/Aggregation Pipeline - Hitesh Chaudhary (Youtube).md",
+    "learning/react/Handle Change in React Forms.md",
+    "learning/react/Context API - Hitesh Chaudhary (Youtube).md",
+    "learning/typescript/Typescript - Hitesh Chaudhary (Youtube).md",
+    "development/setup/Mkdocs Setup.md",
     "development/setup/Obsidian Setup.md",
-    "README.md",
-    "learning/mongodb",
-    "learning/Untitled.md",
-    "projects/Major Project 1/Untitled.md",
-    "Untitled",
-    "projects/major-project",
+    "development/setup/React Frontend Setup - Typescript.md",
+    "development/setup/Node Backend Setup - Typescript.md",
+    "development/setup/Full Stack Mern Setup - JavaScript.md",
+    "development/setup/Chrome Extension Setup V3 - Typescript.md",
     "errors-solutions/development-errors/Cookie Error.md",
+    "README.md",
+    "development/setup/Full Stack Mern Setup - Typescript.md",
+    "Temp/Post On Linkedin.md",
+    "Temp",
+    "learning/mkdocs/Untitled.md",
+    "2024-08-19.md",
+    "learning/mkdocs",
+    "projects/major-project",
+    "learning/typescript",
+    "learning/react",
+    "learning/mongodb",
+    "learning/git-github",
+    "development/setup/Sublime Text Setup - CP.md",
+    "projects/Major Project 1/Untitled.md",
+    "projects/Major Project 1/Project Ideas.md",
+    "learning/docker/Tutorial - Hitesh Chaudhary (Youtube).md",
+    "projects/Major Project 1",
+    "projects/Untitled.md",
     "learning/google-cloud-console",
-    "learning/docker",
-    "errors-solutions/Untitled.md",
-    "errors-solutions/development-errors",
-    "development/Untitled.md",
-    "Welcome.md"
+    "learning/docker"
   ]
 }

@@ -10,6 +10,7 @@
 - Set `default location for new attachments` to `in subfolder under current folder` in `Files and links` section. Write `attachments` as the subfolder name.
 - Set the `themes` to `obsidianite` in `appearance` section.
 - Set `default location of new canvas` to `same folder as current file` in `Canvas` Section.
+- Set `New link format` to `Relative path to file` and disable `Wikilinks` in the `files and links` section to be able to use [Mkdocs](Mkdocs%20Setup.md) or other markdown to static site builder.
 ## 3. Get the previous Vault
 
 - run the command `git clone https://github.com/HarshSharma20503/docs.git`
