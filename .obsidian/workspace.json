@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "development/setup/React Frontend Setup - Javascript.md",
+                "file": "development/setup/Mkdocs Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "development/setup/React Frontend Setup - Javascript.md",
+                "file": "development/setup/Mkdocs Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "development/setup/React Frontend Setup - Javascript.md",
+                "file": "development/setup/Mkdocs Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "development/setup/React Frontend Setup - Javascript.md"
+                "file": "development/setup/Mkdocs Setup.md"
               }
             }
           }
@@ -162,6 +162,7 @@
   "active": "19bfeee96a656127",
   "lastOpenFiles": [
     "development/setup/Obsidian Setup.md",
+    "development/setup/React Frontend Setup - Javascript.md",
     "development/setup/Node Backend Setup - Typescript.md",
     "development/setup/Full Stack Mern Setup - Typescript.md",
     "development/setup/Full Stack Mern Setup - JavaScript.md",
@@ -195,7 +196,6 @@
     "learning/google-cloud-console/Virtual Machine - Compute Engine.md",
     "projects/major-project/Project Ideas.md",
     "learning/git-github/Git-GitHub - Hitesh Chaudhary (Youtube).md",
-    "learning/docker/Docker - Hitesh Chaudhary (Youtube).md",
-    "learning/mongodb/Aggregation Pipeline - Hitesh Chaudhary (Youtube).md"
+    "learning/docker/Docker - Hitesh Chaudhary (Youtube).md"
   ]
 }
