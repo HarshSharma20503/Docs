@@ -15,6 +15,6 @@ Using `memset`, an array of `int` can only be initialised with `0` or `-1` becau
 
 - [Stack Overflow](https://stackoverflow.com/questions/35839179/why-isnt-memset-assigning-1#:~:text=The memset() function fills,initialize each bytes with 1])
 ---
-# Tags
+## Tags
 
 #cpp #memset #initialisation 

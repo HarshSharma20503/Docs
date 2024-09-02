@@ -1,4 +1,4 @@
-# Installation
+## Installation
 
 Install the package
 
@@ -7,7 +7,7 @@ npm install react-toastify
 ```
 
 ---
-# Usage
+## Usage
 
 Inside your main file (App.jsx)
 
@@ -40,7 +40,7 @@ function Component() {
 ```
 
 ---
-# Customisation
+## Customisation
 
 For Customisation you can add property to the ToastContainer or toast itself
 
@@ -70,6 +70,6 @@ toast('🦄 Wow so easy!', {
 ```
 
 ---
-# Reference
+## Reference
 
 [npm package docs](https://www.npmjs.com/package/react-toastify)

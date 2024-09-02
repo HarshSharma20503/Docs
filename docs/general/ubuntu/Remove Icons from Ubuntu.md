@@ -2,9 +2,9 @@ Search for extensions in the search bar.
 You will get option there.
 From there you can remove icons display or turn it on.
 
-# Install gnome Extension
+## Install gnome Extension
 
-## Installing GNOME Shell Extensions
+### Installing GNOME Shell Extensions
 
 Now that you know what GNOME Shell Extensions are, let’s see how to install them.
 

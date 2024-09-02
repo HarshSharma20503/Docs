@@ -1,11 +1,11 @@
-# Installation
+## Installation
 
 ```console
 npm install axios
 ```
 
 ---
-# Basic Code
+## Basic Code
 
 ```javascript
 const getUser = async () => {
@@ -19,7 +19,7 @@ const getUser = async () => {
 ```
 
 ---
-# Set default URL
+## Set default URL
 
 - In the starting file of react application write the following 
 ```javascript
@@ -48,7 +48,7 @@ if (process.env.NODE_ENV === "development") {
 ```
 
 ---
-# Set protected call function
+## Set protected call function
 
 ### Method 1 - When backend returns a message
 ```javascript
@@ -193,7 +193,7 @@ const response = await axios.get(
             );
 ```
 
-# How to show uploading of file in frontend
+## How to show uploading of file in frontend
 Yes, you can add a feature to show the upload percentage of the file using Axios's `onUploadProgress` event. This event allows you to track the progress of the upload and update the state accordingly. Here's how you can do it:
 
 ### Updated Frontend Code with Upload Progress

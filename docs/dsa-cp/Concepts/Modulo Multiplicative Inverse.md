@@ -1,4 +1,4 @@
-# Definition
+## Definition
 
 A modular multiplicative inverse of an integer a is an integer x such that a.x is congruent to 1 modular some modulus m. To write it in a formal way: **we want to find an integer x** so that
 
@@ -11,7 +11,7 @@ We also denote x simply with a<sup>-1</sup>.
 We should note that modular inverse does not always exist. It can be proven that the modular inverse exists if and only if a and m are relatively prime (i.e. gcd(a, m) = 1).
 
 
-# Finding Modular Inverse using Extended Euclidean algorithm
+## Finding Modular Inverse using Extended Euclidean algorithm
 
 $$
 a.x + m.y = 1
@@ -128,10 +128,10 @@ $Time \space Complexity - O(log \space m)$
 $Space \space Complexity - O(log \space m)$
 
 
-# References 
+## References 
 https://cp-algorithms.com/algebra/module-inverse.html
 https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/
 
-# Tags
+## Tags
 
 #modulo-inverse #modulo #inverse #cp-concept #cp

@@ -1,4 +1,4 @@
-# React
+## React
 
 Write every environment variable with prefix REACT_APP_....
 e.g.
@@ -14,7 +14,7 @@ process.env.REACT_APP_URL
 ```
 
 ---
-# Vite
+## Vite
 
 Write every environment variable using prefix VITE_...
 
@@ -29,11 +29,11 @@ import.meta.env.VITE_URL
 ```
 
 ---
-# Reference
+## Reference
 
 - [youtube](https://www.youtube.com/shorts/r92aHr752Bg)
 
 ---
-# Tags
+## Tags
 
 #react #vite #environment-variables   
