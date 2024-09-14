@@ -1,4 +1,4 @@
-# Installing React using vite bundler
+## Installing React using vite bundler
 
 Create a folder in which you want to create your project. Write following command in it.
 
@@ -36,7 +36,7 @@ npm run dev
 ```
 
 ---
-# Removing Unnecessary files
+## Removing Unnecessary files
 
 Remove the following files
 - public/vite.svg
@@ -47,10 +47,11 @@ Remove the icon from index.html and the extra meta tags.
 Clear the app.css, index.css and app.jsx file. Write rafce (used to create react arrow functional component) and start making changes.
 
 ---
-# Setting up folders and files
+## Setting up folders and files
 
 - Create a $components$ folder inside the src to store the components.
 - Create a $pages$ folder inside the src to store the pages files.
+- Create a $utils$ folder inside the src to store the 
 
 Create .prettierrc and add the configurations
 
@@ -67,10 +68,11 @@ Create .prettierrc and add the configurations
 Create .prettierignore and add the configurations.
 You can also use prettierignore generator to generate it.
 
-``` 
+```
 *.env
 .env
 .env.*
 /.vscode
 /node_modules
 ./dist
+```
