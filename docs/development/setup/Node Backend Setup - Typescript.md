@@ -1,85 +1,138 @@
-**1. Project Setup:**
+## 1. Project Setup:
 
-- **Create a new directory:**
+- Create a new directory:
 ```bash
 mkdir my-ts-project
 cd my-ts-project
 ```
 
-- **Initialize npm:**
+- Initialize npm:
 ```bash
 npm init -y
 ```
 
-- **Configure `package.json` file:**
-```JSON
-
-```
-
-- **Install dependencies:**
+- Install Dependencies:
 ```bash
-npm install express dotenv mongoose cors jsonwebtoken bcryptjs cookie-parser
-npm install @types/express typescript ts-node @types/node nodemon prettier -D
+npm install express
+npm install typescript ts-node @types/express --save-dev
+npm install nodemon --save-dev
 ```
 
-**2. Create TypeScript Configuration:**
+## Configure Typescript
 
-- **Initialise Typescript default config**:
-```console
-npx tsc init
+- Initialise typescript configuration
+```bash
+npx tsx --init
 ```
 
-- **Configure `tsconfig.json` file:**
-```JSON
+- Update tsconfig.json file
+For using the `require` syntax
+```json
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "ES6",
     "module": "commonjs",
-    "outDir": "./dist",
     "rootDir": "./src",
+    "outDir": "./dist",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true
   }
 }
 ```
 
-**3. Create the File and Folder structure:**
+For using the import syntax
+```json
+{
+  "compilerOptions": {
+    "target": "ES2020",        // Ensure compatibility with modern JavaScript
+    "module": "ESNext",        // Use ES Modules
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",  // Ensure module resolution works correctly
+    "resolveJsonModule": true,   // If you plan to import JSON
+    "forceConsistentCasingInFileNames": true
+  }
+}
+```
 
-- **Create folders**
+- **Configure `package.json` file:**
+For using `import` syntax
+```JSON
+{
+  "name": "my-ts-server",
+  "version": "1.0.0",
+  "type": "module",  // This enables ESM
+	"scripts": {
+	  "start": "node dist/index.js",
+	  "dev": "nodemon --watch src --exec 'ts-node --esm' src/index.ts",
+	  "build": "tsc"
+	}
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "ts-node": "^10.9.1",
+    "nodemon": "^2.0.19",
+    "@types/express": "^4.17.14"
+  }
+}
+```
+
+For using `require` syntax
+```json
+"scripts": {
+  "start": "node dist/index.js",
+  "dev": "nodemon --watch src --exec ts-node src/index.ts",
+  "build": "tsc"
+}
+```
+
+## Setup Folder structure
+
+- Create src folder and than internal folders
 ```bash
 mkdir src public
+touch .env .env.dev
 cd public
-mkdir temp %% for temproary storage%%
-cd ../src
-mkdir controllers models config utils middlewares routes
+mkdir temp
+cd temp
+touch .gitkeep
+cd ../../src
+cd src
+touch index.ts app.ts 
+mkdir controllers models routes middlewares config scripts utils
 ```
+.env to store environment variables and .env.dev to store the enviornement variable names so that it could be pushed to GitHub
 
-- **Create files**
-```bash
-touch .gitkeep %% inside the  %%
-```
+## Basic Server code 
 
-**4. Create the Server File:**
-
-- **Create a `src/index.ts` file:**
 ```typescript
-import express from 'express';
+import express, { Request, Response } from "express";
 
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-  res.send('Hello from TypeScript Express server!');
+app.use(express.json());
+
+app.get("/", (req: Request, res: Response) => {
+  res.send("Hello, TypeScript with Node and Express!");
 });
 
-app.listen(port, () => {
-  console.log(`Server listening on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
 ```
 
-**4. Start the Server:**
+## Run in development
 
-- **Execute the server:**
-```bash
-ts-node src/index.ts
-```
+- Run the command `npm run dev` to run the project
+`Note`: There might be error `TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".ts"`, this error can be resolved by installing node version 19 because ts-node is not updated to the latest node version. Use NVM to install node verison 19
+
+## Run in production
+
+- `npm build` and then `npm start`
