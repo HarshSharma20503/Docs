@@ -2,126 +2,414 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.xoxoharsh.in/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/development/miscellaneous/Add%20environment%20variable%20in%20React-Vite/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/development/miscellaneous/Use%20Two%20GitHub%20Account%20from%20single%20PC/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/development/setup/Chrome%20Extension%20Setup%20V3%20-%20Typescript/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/development/setup/Full%20Stack%20Mern%20Setup%20-%20Typescript/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/development/setup/Mkdocs%20Setup/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/development/setup/Node%20Backend%20Setup%20-%20Typescript/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/development/setup/Obsidian%20Setup/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/development/setup/React%20Frontend%20Setup%20-%20Typescript/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/development/snippets/ai/Gemini%20Api/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/development/snippets/firebase/Firebase%20Cloud%20Messaging%20FCM/</loc>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/development/snippets/npm-packages/Axios/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/development/snippets/npm-packages/React-toastify/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/development/snippets/npm-packages/Socket.io/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/development/snippets/npm-packages/react-router-dom/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/dsa-cp/Concepts/Modulo%20Multiplicative%20Inverse/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/errors-solutions/cpp-errors/Memset%20Initialisation%20errorr/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/errors-solutions/development-errors/Correct%20CORS%20Configuration%20for%20Handling%20Credentials%20Like%20Cookies/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/errors-solutions/development-errors/Node%20%2B%20Python%20deployment%20error/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/general/ubuntu/Install%20a%20application%20and%20get%20it%20on%20launcher/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/general/ubuntu/Remove%20Icons%20from%20Ubuntu/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/general/ubuntu/Transfer%20File%20from%20laptop%20to%20PC/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/learning/UI-Libraries-Frontend-Styling/React%20Bootstrap/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/learning/docker/Docker%20-%20Hitesh%20Chaudhary%20%28Youtube%29/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/learning/git-github/Git-GitHub%20-%20Hitesh%20Chaudhary%20%28Youtube%29/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/learning/google-cloud-console/Virtual%20Machine%20-%20Compute%20Engine/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/learning/mongodb/Aggregation%20Pipeline%20-%20Hitesh%20Chaudhary%20%28Youtube%29/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/learning/react/Context%20API%20-%20Hitesh%20Chaudhary%20%28Youtube%29/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/learning/react/Handle%20Change%20in%20React%20Forms/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/learning/react-native/Getting%20Started/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/learning/typescript/Typescript%20-%20Hitesh%20Chaudhary%20%28Youtube%29/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/Quick%20Access/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/DSA-CP/Modulo%20Multiplicative%20Inverse/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/DSA-CP/Good%20Questions/Quick%20Access/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/DSA-CP/Good%20Questions/Online%20Assessment/Beautiful%20Painting/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/Errors/Cors%20Error%20in%20while%20sending%20cookies/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/Errors/Errors%20while%20installing%20android%20studio/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/Errors/Memset%20Initialisation%20error/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/Errors/Node%20%2B%20Python%20deployment%20error/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/Errors/Quick%20Access/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/General/Create%20Code%20documentation/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/General/HDMI%20PORT%20not%20working%20in%20Ubuntu/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/General/Install%20a%20application%20and%20get%20it%20on%20launcher/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/General/Install%20node%20latest%20version/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/General/Remove%20Icons%20from%20Ubuntu/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/General/Sync%20Obsidian%20for%20free/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/General/Template%20for%20Full%20Stack%20Mern%20Application/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/General/Transfer%20File%20from%20laptop%20to%20PC/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Getting%20Started/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Auth/Google%20Oauth%202.0%20%2B%20JWT/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Auth/Google%20Oauth%202.0/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Auth/JWT%20Auth/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Auth/JWT%20with%20Verification%20Email/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Express/Create%20Express%20App/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Express/Make%20Routes/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Express/Serve%20Static%20Files%20in%20Express/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/General/Send%20Email%20%28NodeMailer%29/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/General/Send%20Telegram%20Messages/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/General/Setup%20Postman/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/MongoDB%20Database/Connect%20Database/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/MongoDB%20Database/Modelling%20Schema/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/MongoDB%20Database/Query/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Templates/Get%20Current%20User%20Details/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Templates/Login-Logout-refresh/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Templates/Update%20User%20Details/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Typescript%20Setup/Typescript%20Backend%20Setup/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Utility%20Function/ApiError/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Utility%20Function/ApiResponse/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Utility%20Function/AsyncHandler/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Utility%20Function/Generate%20JWT%20Token/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/Utility%20Function/Handle%20File%20upload/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Backend-Development/docs/Getting%20Started/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Docker/Docker%20build/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/Connect%20React%20with%20Bootstrap/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/Getting%20Started/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/Chakra%20UI/Getting%20Started/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/General/Add%20environment%20variable%20in%20React-Vite/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/General/Create%20Routes/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/General/Save%20User%20data%20in%20local%20storage%20and%20context%20api/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/Material%20UI/Getting%20Started/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/Material%20UI/Navbar/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/React/Context%20API/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/React/Form%20Handling/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/React/Proxying%20API%20Requests/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/React/Warnings/Props%20Passing%20Error/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/React-Bootstrap/Footer/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/React-Bootstrap/Getting%20Started/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/React-Bootstrap/Navbar/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/React-Bootstrap/Utility%20classes/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/Redux/react%20Redux%20Tookit/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Frontend-Development/Redux/react-redux%20dev%20Tools/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/General/Gemini%20Api/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/General/Gmail%20API/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/General/Socket.io/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Miscellaneous/Access%20localhost%20of%20other%20Laptop/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Miscellaneous/Render%20Deployment%20-%20Directory%20Error/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Packages/Axios/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Packages/Colors/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/Packages/React%20Toastify/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/React%20Native/Build%20android%20apk/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/My%20Documentation/React%20Native/Get%20Started/</loc>
+         <lastmod>2024-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.xoxoharsh.in/legacy-docs/Templates/Table%20of%20Contents/</loc>
+         <lastmod>2024-09-21</lastmod>
     </url>
     <url>
          <loc>https://docs.xoxoharsh.in/projects/Project%20Ideas/</loc>
-         <lastmod>2024-09-16</lastmod>
+         <lastmod>2024-09-21</lastmod>
     </url>
 </urlset>
