@@ -155,3 +155,7 @@ markdown_extensions:
 6. Write the docs using Obsidian
 
 ## Deploying the setup
+
+```bash
+mkdocs gh-deploy
+```
