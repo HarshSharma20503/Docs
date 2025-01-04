@@ -4,12 +4,12 @@
   --md-default-fg-color: #1a1a1a;
   --md-default-fg-color--light: #666666;
 
-  /* Navigation and header colors */
-  --md-primary-fg-color: #ffffff;
-  --md-primary-fg-color--dark: #f8f9fa;
+  /* Navigation and header colors - Updated to blue */
+  --md-primary-fg-color: #1976d2; /* Material Blue */
+  --md-primary-fg-color--dark: #1565c0;
 
   /* Make sure text is visible in light mode */
-  --md-primary-bg-color: #333333;
+  --md-primary-bg-color: #ffffff;
 
   /* Accent colors */
   --md-accent-fg-color: #e94444;
@@ -26,26 +26,26 @@
 
 /* Search input styling for light mode */
 [data-md-color-scheme="default"] .md-search__input {
-  background-color: rgba(0, 0, 0, 0.07);
-  color: var(--md-default-fg-color);
+  background-color: rgba(255, 255, 255, 0.15);
+  color: var(--md-primary-bg-color);
 }
 
 [data-md-color-scheme="default"] .md-search__input::placeholder {
-  color: var(--md-default-fg-color--light);
+  color: rgba(255, 255, 255, 0.7);
 }
 
-/* Footer styling for light mode */
+/* Footer styling for light mode - Updated to match navbar */
 [data-md-color-scheme="default"] .md-footer {
-  background-color: #1a1a1a;
+  background-color: #1976d2;
   color: #ffffff;
 }
 
 [data-md-color-scheme="default"] .md-footer-meta {
-  background-color: #0f0f0f;
+  background-color: #1565c0;
 }
 
 [data-md-color-scheme="default"] .md-footer__inner {
-  background-color: #1a1a1a;
+  background-color: #1976d2;
 }
 
 [data-md-color-scheme="default"] .md-footer__link {
@@ -54,6 +54,15 @@
 
 [data-md-color-scheme="default"] .md-footer__link:hover {
   color: var(--md-accent-fg-color);
+}
+
+[data-md-color-scheme="default"]
+  .md-nav--primary
+  .md-nav__title[for="__drawer"],
+[data-md-color-scheme="default"]
+  .md-nav--secondary
+  .md-nav__title[for="__toc"] {
+  color: black;
 }
 
 /* Dark theme variables */

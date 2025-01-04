@@ -11,23 +11,23 @@ npm install puppeteer
 1. Launching puppeteer browser
 
     ```javascript
-        const browser = await puppeteer.launch({
-          headless: false,
-          defaultViewport: null,
-          args: ["--start-maximized"],
-        });
+    const browser = await puppeteer.launch({
+      headless: false,
+      defaultViewport: null,
+      args: ["--start-maximized"],
+    });
     ```
 
 2. Launching your own browser
 
     ```javascript
-        const browser = await puppeteer.launch({
-          executablePath:
-            "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-          headless: false,
-          defaultViewport: null, // This allows the browser to open in full screen
-          args: ["--start-fullscreen"], // Full screen argument
-        });
+    const browser = await puppeteer.launch({
+      executablePath:
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+      headless: false,
+      defaultViewport: null, // This allows the browser to open in full screen
+      args: ["--start-fullscreen"], // Full screen argument
+    });
     ```
 
 ## Opening new page
@@ -41,12 +41,12 @@ await page.goto("https://www.geeksforgeeks.org/problem-of-the-day");
 
 ```javascript
 // Listen for new target (tab) creation
-    const [newPage] = await Promise.all([
-      new Promise((resolve) =>
-        browser.once("targetcreated", (target) => resolve(target.page()))
-      ),
-      page.click(".ui.button.problemOfTheDay_POTDCntBtn__SSQfX"),
-    ]);
+const [newPage] = await Promise.all([
+  new Promise((resolve) =>
+    browser.once("targetcreated", (target) => resolve(target.page()))
+  ),
+  page.click(".ui.button.problemOfTheDay_POTDCntBtn__SSQfX"),
+]);
 ```
 
 ## Type on a input box
@@ -62,16 +62,16 @@ await newPage.click(".notSocialLoginBtnText");
 ## Get all links
 
 ```javascript
-  const hrefs = await page.evaluate(() => {
-    // Select all <a> tags on the page
-    const anchorTags = document.querySelectorAll("a");
+const hrefs = await page.evaluate(() => {
+  // Select all <a> tags on the page
+  const anchorTags = document.querySelectorAll("a");
 
-    // Extract and return the href attributes from all <a> tags
-    return Array.from(anchorTags)
-      .map((a) => a.href)
-      .filter((href) => href)
-      .filter((href) => href.includes("envType=daily-question"));
-  });
+  // Extract and return the href attributes from all <a> tags
+  return Array.from(anchorTags)
+    .map((a) => a.href)
+    .filter((href) => href)
+    .filter((href) => href.includes("envType=daily-question"));
+});
 ```
 
 ## Snippet

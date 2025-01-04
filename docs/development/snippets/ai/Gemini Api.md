@@ -1,5 +1,7 @@
 # Gemini API Snippet
 
+## Code Snippet
+
 ```javascript
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import dotenv from "dotenv";

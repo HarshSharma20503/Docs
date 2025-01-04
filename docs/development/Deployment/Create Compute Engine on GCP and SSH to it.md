@@ -4,6 +4,8 @@ Go to the Compute engine service
 In the navbar you will see the metadata option
 in the ssh option paste the public key that you will generate
 
+## Steps
+
 1. Generate the ssh key
 
     ```bash
