@@ -1,3 +1,5 @@
+# Remove Icons from Ubuntu
+
 Search for extensions in the search bar.
 You will get option there.
 From there you can remove icons display or turn it on.
@@ -17,13 +19,13 @@ There are three ways you can use GNOME Extensions:
 
 Although GNOME Tweaks is not required for extensions to work, [installing GNOME Tweak Tool in Ubuntu](https://itsfoss.com/gnome-tweak-tool/) or whichever distribution you are using is better.
 
-```
+```bash
 sudo apt install gnome-tweaks
 ```
 
 At times, you would also need to know the version of GNOME Shell you are using. This helps determine whether an extension is compatible with your system. You can use the command below to find it:
 
-```
+```bash
 gnome-shell --version
 ```
 
@@ -33,7 +35,7 @@ Ubuntu (and several other Linux distributions such as Fedora) provide a package 
 
 If you want a no-brainer, just get this package and you’ll have 8-10 GNOME extensions installed.
 
-```
+```bash
 sudo apt install gnome-shell-extensions
 ```
 

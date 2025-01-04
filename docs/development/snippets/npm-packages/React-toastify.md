@@ -1,3 +1,5 @@
+# React Toastify Snippet
+
 ## Installation
 
 Install the package
@@ -7,6 +9,7 @@ npm install react-toastify
 ```
 
 ---
+
 ## Usage
 
 Inside your main file (App.jsx)
@@ -40,36 +43,38 @@ function Component() {
 ```
 
 ---
+
 ## Customisation
 
 For Customisation you can add property to the ToastContainer or toast itself
 
-```
+```javascript
 <ToastContainer
-	position="top-right"
-	autoClose={2000}
-	hideProgressBar={false}
-	newestOnTop={false}
-	closeOnClick
-	rtl={false}
-	pauseOnFocusLoss
-	draggable
-	pauseOnHover
-	theme="light"
+    position="top-right"
+    autoClose={2000}
+    hideProgressBar={false}
+    newestOnTop={false}
+    closeOnClick
+    rtl={false}
+    pauseOnFocusLoss
+    draggable
+    pauseOnHover
+    theme="light"
 />
 toast('🦄 Wow so easy!', {
-	position: "top-right",
-	autoClose: 5000,
-	hideProgressBar: false,
-	closeOnClick: true,
-	pauseOnHover: true,
-	draggable: true,
-	progress: undefined,
-	theme: "light",
+    position: "top-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
 });
 ```
 
 ---
+
 ## Reference
 
 [npm package docs](https://www.npmjs.com/package/react-toastify)

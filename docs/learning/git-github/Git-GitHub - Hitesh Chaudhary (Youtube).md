@@ -1,4 +1,9 @@
+# Git-GitHub by Hitesh(Youtube)
+
 **Reference Link** : [Youtube Link](https://www.youtube.com/watch?v=tz82ola3oy0&t=1667s)
+
+## Git
+
 ### Check Version
 
 `git --version` or `git -v`
@@ -160,7 +165,7 @@ Run this command from side branch, never run this command on main or master bran
 
 run `git rebase master` on other branch like bugfix. It takes bugfix commits and put it ahead of master branch.
 
-# GitHub
+## GitHub
 
 ### Generating ssh key and adding it to the ssh-agent
 
@@ -184,7 +189,7 @@ Go to settings→SSH GPG keys → new SSH key → authentication key
 
 `git remote -v` : It displays information about all configured remotes, including their URLs and the configured fetch refspec.
 
-`git remote add <name> <url>` : creates a shortcut named <name> for a remote Git repository at <URL>
+`git remote add <name> <url>` : creates a shortcut named <name> for a remote Git repository at <URL>.
 
 `git remote rename <old-name> <new-name>` : updates the local reference for a remote repository, changing its name from <old-name> to <new-name>pen_spark
 

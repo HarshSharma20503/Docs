@@ -1,6 +1,9 @@
+# Kubernetes
+
 ## What is Kubernetes?
 
 Kubernetes is a tool that helps manage and run containerized applications automatically, making it easier to deploy, scale, and maintain apps.
+
 ## Why use Kubernetes?
 
 • **Scalability**: Automatically adjusts resources based on demand.
@@ -18,4 +21,3 @@ Kubernetes is a tool that helps manage and run containerized applications automa
 • **Cloud Applications**: For apps built to run in the cloud.
 
 • **Hybrid Cloud**: Runs apps across cloud and local servers.
-

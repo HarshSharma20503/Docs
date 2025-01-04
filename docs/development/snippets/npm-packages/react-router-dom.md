@@ -1,9 +1,13 @@
-## Installation 
-```console
+# React Router Dom Snippet
+
+## Installation
+
+```bash
 npm install react-router-dom
 ```
 
 Inside main.jsx or app.jsx wrap the browserRouter
+
 ```javascript
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -21,6 +25,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 ```
 
 Now Inside app.jsx declare url paths
+
 ```javascript
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";

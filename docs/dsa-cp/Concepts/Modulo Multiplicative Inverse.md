@@ -1,3 +1,5 @@
+# Modulo Multiplicative Inverse
+
 ## Definition
 
 A modular multiplicative inverse of an integer a is an integer x such that a.x is congruent to 1 modular some modulus m. To write it in a formal way: **we want to find an integer x** so that
@@ -9,7 +11,6 @@ $$
 We also denote x simply with a<sup>-1</sup>.
 
 We should note that modular inverse does not always exist. It can be proven that the modular inverse exists if and only if a and m are relatively prime (i.e. gcd(a, m) = 1).
-
 
 ## Finding Modular Inverse using Extended Euclidean algorithm
 
@@ -26,7 +27,7 @@ Thus, the modular inverse of a is x.
 
 ## Implementation
 
-### Brute 
+### Brute
 
 ```cpp
 #include <bits/stdc++.h>
@@ -72,20 +73,20 @@ int gcdExtended(int a, int b, int &x, int &y) {
 }
 void modInverse(int A, int M)
 {
-	int x, y;
-	int g = gcdExtended(A, M, &x, &y);
-	if (g != 1)
-		cout << "Inverse doesn't exist";
-	else {
-		int res = (x % M + M) % M;
-		cout << "Modular multiplicative inverse is " << res;
-	}
+    int x, y;
+    int g = gcdExtended(A, M, &x, &y);
+    if (g != 1)
+        cout << "Inverse doesn't exist";
+    else {
+        int res = (x % M + M) % M;
+        cout << "Modular multiplicative inverse is " << res;
+    }
 }
 int main()
 {
-	int A = 3, M = 11;
-	modInverse(A, M);
-	return 0;
+    int A = 3, M = 11;
+    modInverse(A, M);
+    return 0;
 }
 ```
 
@@ -99,39 +100,35 @@ $Space \space Complexity - O(log \space m)$
 using namespace std; 
 int power(int base, int exponent, int mod) 
 { 
-	int result = 1; 
-	while (exponent > 0) 
-	{ 
-		if (exponent % 2 == 1) 
-			result = (result * base) % mod; 
-		exponent >>= 1; 
-		base = (base * base) % mod; 
-	} 
-	return result; 
+    int result = 1; 
+    while (exponent > 0) 
+    { 
+        if (exponent % 2 == 1) 
+            result = (result * base) % mod; 
+        exponent >>= 1; 
+        base = (base * base) % mod; 
+    } 
+    return result; 
 } 
 int modInverse(int a, int m) 
 { 
-	a = (a % m + m) % m; 
-	return power(a, m - 2, m); 
+    a = (a % m + m) % m; 
+    return power(a, m - 2, m); 
 } 
 int main() 
 { 
-	int a, m; 
-	cin >> a >> m; 
-	int result = modInverse(a, m); 
-	cout << (result == 0 ? "No modular inverse" : to_string(result)) << endl; 
-	return 0; 
+    int a, m; 
+    cin >> a >> m; 
+    int result = modInverse(a, m); 
+    cout << (result == 0 ? "No modular inverse" : to_string(result)) << endl; 
+    return 0; 
 }
 ```
 
 $Time \space Complexity - O(log \space m)$
 $Space \space Complexity - O(log \space m)$
 
+## References
 
-## References 
-https://cp-algorithms.com/algebra/module-inverse.html
-https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/
-
-## Tags
-
-#modulo-inverse #modulo #inverse #cp-concept #cp
+- [CP Algorithms](https://cp-algorithms.com/algebra/module-inverse.html)
+- [GFG](https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/)

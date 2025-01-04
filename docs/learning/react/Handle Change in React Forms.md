@@ -1,5 +1,8 @@
+# Handle Change in React Forms
+
 This guide covers how to handle form data changes in React, specifically treating checkboxes differently while managing other input types with a simple state update.
-### 1. Initialize Form State
+
+## 1. Initialize Form State
 
 Create a `useState` hook to manage form data, initializing with default values:
 
@@ -10,12 +13,14 @@ const [formData, setFormData] = useState({
     questions: [],
 });
 ```
-### 2. Handle Input Changes
+
+## 2. Handle Input Changes
 
 Create a `handleChange` function that updates the state based on user input:
 
 - **Checkbox:** If the checkbox is checked, add its name to the `batches` array. If unchecked, remove it.
 - **Other Input Types:** For text inputs and others, update the state with the new value for the given field.
+
 ```javascript
 const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -34,8 +39,10 @@ const handleChange = (e) => {
     }
 };
 ```
+
 This simple approach handles form state updates efficiently, with special handling for check-boxes.
-### 3. Complete example (Given by chatGPT and not confirmed yet)
+
+## 3. Complete example (Given by chatGPT and not confirmed yet)
 
 ```javascript
 import React, { useState } from 'react';

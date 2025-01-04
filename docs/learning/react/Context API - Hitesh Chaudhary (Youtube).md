@@ -1,7 +1,10 @@
+# Context API By Hitesh(Youtube)
+
 **Reference Link** : [Youtube Link](https://www.youtube.com/watch?v=aAcI_FdfkA8&t=12s)
 
 This guide will walk you through setting up and using React Context for managing global state across your application.
-### 1. Create a Context
+
+## 1. Create a Context
 
 Start by creating a context. This will allow you to manage and share data across components without having to pass props down manually through each component.
 
@@ -12,7 +15,8 @@ import React from 'react';
 const UserContext = React.createContext();
 export default UserContext;
 ```
-### 2. Create a Context Provider
+
+## 2. Create a Context Provider
 
 Next, create a provider component that will wrap around your application or specific components that need access to the shared context. This provider will store the data and provide it to any component that consumes the context.
 
@@ -35,7 +39,7 @@ const UserContextProvider = ({ children }) => {
 export default UserContextProvider;
 ```
 
-### 3. Wrap Your Application with the Context Provider
+## 3. Wrap Your Application with the Context Provider
 
 To make the context available throughout your application, wrap your main component (e.g., `App.js`) with the `UserContextProvider`.
 
@@ -56,7 +60,7 @@ const App = () => {
 export default App;
 ```
 
-### 4. Using the Context in Components
+## 4. Using the Context in Components
 
 To use the context data in a component, you can use the `useContext` hook. This allows you to access and update the shared state.
 
@@ -84,7 +88,7 @@ function Login() {
 export default Login;
 ```
 
-### Summary
+## Summary
 
 - **Create Context:** Define your context using `React.createContext()`.
 - **Context Provider:** Create a provider component that manages the state and provides it to the child components.

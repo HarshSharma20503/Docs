@@ -1,3 +1,5 @@
+# Axios Snippet
+
 ## Installation
 
 ```console
@@ -5,6 +7,7 @@ npm install axios
 ```
 
 ---
+
 ## Basic Code
 
 ```javascript
@@ -19,9 +22,11 @@ const getUser = async () => {
 ```
 
 ---
+
 ## Set default URL
 
-- In the starting file of react application write the following 
+- In the starting file of react application write the following
+
 ```javascript
 if (import.meta.env.DEV) { //for vite application
     console.log("Running in development mode");
@@ -34,7 +39,7 @@ if (import.meta.env.DEV) { //for vite application
 
 Reference Link -> [Vitejs.dev](https://vitejs.dev/guide/env-and-mode)
 
-You do not require to create .Dev environment variables in .env, it is default for vite application 
+You do not require to create .Dev environment variables in .env, it is default for vite application
 For other react application you can use  following :
 
 ```javascript
@@ -48,9 +53,11 @@ if (process.env.NODE_ENV === "development") {
 ```
 
 ---
+
 ## Set protected call function
 
 ### Method 1 - When backend returns a message
+
 ```javascript
 import axios from "axios";
 import Cookies from "js-cookie";
@@ -88,6 +95,7 @@ export default ApiCall;
 ```
 
 ### Method 2 - When Backend return status code
+
 ```javascript
 import { toast } from "react-toastify";
 import axios from "axios";
@@ -169,6 +177,7 @@ export default Discover;
 ```
 
 ### Send post request with token
+
 ```javascript
 const config = {
                 headers: {
@@ -186,6 +195,7 @@ const config = {
 ```
 
 ### Send get request with token
+
 ```javascript
 const response = await axios.get(
                 `/admin/verify/${props.details._id}`,
@@ -194,6 +204,7 @@ const response = await axios.get(
 ```
 
 ## How to show uploading of file in frontend
+
 Yes, you can add a feature to show the upload percentage of the file using Axios's `onUploadProgress` event. This event allows you to track the progress of the upload and update the state accordingly. Here's how you can do it:
 
 ### Updated Frontend Code with Upload Progress
@@ -263,7 +274,8 @@ const FileUpload = () => {
 export default FileUpload;
 ```
 
-### Explanation:
+### Explanation
+
 1. **State Management:**
    - `uploadPercentage`: State to keep track of the upload percentage.
 
@@ -280,9 +292,10 @@ export default FileUpload;
    - Displays a progress bar and percentage text if `uploadPercentage` is greater than 0.
    - Shows the response message or an error message after the upload attempt.
 
-### Backend Code (unchanged):
+### Backend Code (unchanged)
 
 **server.js:**
+
 ```javascript
 const express = require('express');
 const multer = require('multer');
@@ -323,6 +336,7 @@ app.listen(PORT, () => {
 ```
 
 ### Summary
+
 - The frontend code now includes an upload progress bar that updates in real-time using Axios's `onUploadProgress` event.
 - The progress bar and percentage are displayed during the file upload process, providing feedback to the user.
 

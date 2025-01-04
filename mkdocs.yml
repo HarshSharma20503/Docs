@@ -1,9 +1,9 @@
 # # Project Information
-site_name: XOXO Docs
+site_name: XoXo Docs
 site_url: https://docs.xoxoharsh.in/
 site_author: Harsh Sharma
 site_description: >-
-  My Personal Documentation Website for all my projects and blogs.
+  A personal documentation repository featuring concise notes, guides, troubleshooting logs, and verified code snippets for efficient full-stack development, tailored for personal reference and skill growth.
 
 # Repository
 repo_name: harshsharma20503/docs
@@ -15,40 +15,28 @@ copyright: Copyright &copy; 2024 Harsh Sharma
 # Theme
 theme:
   name: material
-  logo: https://e7.pngegg.com/pngimages/392/294/png-clipart-documents-logo-docs-logo-documents-documentation.png
-  favicon: https://e7.pngegg.com/pngimages/392/294/png-clipart-documents-logo-docs-logo-documents-documentation.png
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
   features:
     - announce.dismiss
-    # - content.action.edit
-    # - content.action.view
     - content.code.annotate
     - content.code.copy
-    # - content.code.select
-    # - content.footnote.tooltips
-    # - content.tabs.link
     - content.tooltips
-    # - header.autohide
-    # - navigation.expand
     - navigation.footer
     - navigation.indexes
-    # - navigation.instant
-    # - navigation.instant.prefetch
-    # - navigation.instant.progress
-    # - navigation.prune
-    # - navigation.sections
-    # - navigation.tabs
-    # - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
     - toc.follow
-    # - toc.integrate
   palette:
-    - media: "(prefers-color-scheme)"
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep-purple # suggested deep purple
+      accent: indigo
       toggle:
-        icon: material/brightness-auto
+        icon: material/brightness-4
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -57,22 +45,15 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
+
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: Inter
+    code: JetBrains Mono
   language: en
 extra_css:
   - stylesheets/extra.css
-# # Plugins
+
 plugins:
-  # - blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
@@ -87,6 +68,11 @@ extra:
       link: https://www.linkedin.com/in/harshsharma20503/
       name: LinkedIn
   generator: false
+  meta_tags:
+    - name: keywords
+      content: documentation, programming, code snippets
+    - name: author
+      content: Harsh Sharma
 markdown_extensions:
   - abbr
   - admonition
@@ -102,9 +88,6 @@ markdown_extensions:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.details
-  # - pymdownx.emoji:
-  #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  #     emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -123,9 +106,6 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
       combine_header_slug: true
-      # slugify: !!python/object/apply:pymdownx.slugs.slugify
-      #   kwds:
-      #     case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde

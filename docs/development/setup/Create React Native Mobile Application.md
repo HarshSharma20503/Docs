@@ -1,3 +1,5 @@
+# Create React Native Application
+
 ## Prerequisites
 
 1. Node should be installed
@@ -8,6 +10,7 @@
 6. For all the step above follow the official documentation.
 
 **Note:** I will be only creating a android application, IOS have some extra steps involved so please refer some other documentation.
+
 ## Initialising react native project
 
 Run the the following command
@@ -17,6 +20,7 @@ npx react-native init <project-name>
 ```
 
 A folder will be created with the name `<project-name>`. Go inside the folder.
+
 ## Run the project
 
 run the following command

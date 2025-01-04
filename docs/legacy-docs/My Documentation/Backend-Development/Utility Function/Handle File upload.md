@@ -8,6 +8,7 @@
 >    - [[Handle File upload#Create Cloudinary.js file in util|Create Cloudinary.js file in util]]
 >    - [[Handle File upload#Insert the keys in .env file|Insert the keys in .env file]]
 >    - [[Handle File upload#Use uploadOnCloudinary Function|Use uploadOnCloudinary Function]]
+
 # Installation
 
 Install cloudinary and multer
@@ -15,6 +16,7 @@ Install cloudinary and multer
 ```javascript
 npm i cloudinary multer
 ```
+
 ---
 # Concept
 
@@ -67,7 +69,9 @@ export default router;
 ```
 
 ---
+
 # Cloudinary Setup
+
 ## Create Cloudinary.js file in util
 
 write the following code
@@ -106,12 +110,13 @@ export { uploadOnCloudinary };
 ```
 
 This module provides a convenient function for uploading files to Cloudinary, handling errors gracefully, and logging the success message upon a successful upload. It's commonly used in web applications to manage and serve media files in the cloud.
+
 ## Insert the keys in .env file
 
 ```javascript
-CLOUDINARY_CLOUD_NAME = dmsxgvl93
-CLOUDINARY_API_KEY = 918976395131442
-CLOUDINARY_API_SECRET = Ll3UDAfgNtv_xLfoZ106aV1bTc8
+CLOUDINARY_CLOUD_NAME = 
+CLOUDINARY_API_KEY = 
+CLOUDINARY_API_SECRET = 
 ```
 
 insert your own new keys from cloudinary

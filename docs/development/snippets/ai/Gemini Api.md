@@ -1,3 +1,5 @@
+# Gemini API Snippet
+
 ```javascript
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import dotenv from "dotenv";
@@ -33,5 +35,4 @@ const GetGiminiResponse = async (prompt) => {
 const Prompt = "Write a program to print hello world in C++";
 const GeminiResponse = await GetGiminiResponse(Prompt);
 console.log(GeminiResponse);
-
 ```

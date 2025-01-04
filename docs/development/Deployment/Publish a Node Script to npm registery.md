@@ -1,35 +1,37 @@
+# Publish a Node Script to npm registry
+
 1. Create an npm account if you don't have one:
 
-	```
-	npm adduser 
-	```
+      ```bash
+      npm adduser 
+      ```
 
 2. If you're using a scoped package (starting with @), configure npm:
 
-	```bash
-	npm config set scope your-username
-	```
+      ```bash
+      npm config set scope your-username
+      ```
 
 3. Make sure you're logged in:
-	```bash
-	npm login
-	```
+
+    ```bash
+    npm login
+    ```
 
 4. Test your package locally:
 
-	```bash
-	npm link 
-	terminal-portfolio  # to test the command
-	```
+    ```bash
+    npm link 
+    terminal-portfolio  # to test the command
+    ```
 
 5. Publish to npm:
 
-	```bash
-	npm publish --access public
-	```
+    ```bash
+    npm publish --access public
+    ```
 
-
-Additional publishing tips:
+## Additional publishing tips
 
 - Use `npm version patch/minor/major` to update version numbers
 - Test the package thoroughly before publishing
@@ -48,21 +50,20 @@ Remember to:
 4. Include appropriate documentation
 5. Test the installation process on a clean system
 
-
 To further update and publish add the following script to package.json and run any of them
 
 ```JSON
 {
 ...
 script: {
-	...
-		"version:patch": "npm version patch && git push && git push --tags && npm publish --access public",
-	    "version:minor": "npm version minor && git push && git push --tags && npm publish --access public",
-	    "version:major": "npm version major && git push && git push --tags && npm publish --access public",
-	    "publish:patch": "git add . && git commit -m \"patch update\" && npm run version:patch",
-	    "publish:minor": "git add . && git commit -m \"minor update\" && npm run version:minor",
-	    "publish:major": "git add . && git commit -m \"major update\" && npm run version:major"
-	...
+    ...
+        "version:patch": "npm version patch && git push && git push --tags && npm publish --access public",
+        "version:minor": "npm version minor && git push && git push --tags && npm publish --access public",
+        "version:major": "npm version major && git push && git push --tags && npm publish --access public",
+        "publish:patch": "git add . && git commit -m \"patch update\" && npm run version:patch",
+        "publish:minor": "git add . && git commit -m \"minor update\" && npm run version:minor",
+        "publish:major": "git add . && git commit -m \"major update\" && npm run version:major"
+    ...
 }
 ...
 }
@@ -72,8 +73,7 @@ Now you can use these commands:
 
 For quick version updates (if changes are already committed):
 
-
-```bash 
+```bash
 npm run version:patch  # For bug fixes (1.0.0 -> 1.0.1) 
 npm run version:minor  # For new features (1.0.0 -> 1.1.0) 
 npm run version:major  # For breaking changes (1.0.0 -> 2.0.0)

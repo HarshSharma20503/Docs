@@ -1,6 +1,9 @@
+# React Bootstrap
+
 ## Installation
 
 To get started with React Bootstrap, you need to install both react-bootstrap and bootstrap. Run the following commands to install them:
+
 ```bash
 npm install react react-bootstrap
 ```
@@ -14,7 +17,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ## Basic Components
 
 ### Navbar
+
 The Navbar component provides a responsive navigation header.
+
 ```typescript
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
@@ -36,7 +41,9 @@ export default AppNavbar;
 ```
 
 ### Modals
+
 The Modal component is used to create dialogs or popups.
+
 ```typescript
 import React, { useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
@@ -75,7 +82,9 @@ export default AppModal;
 ```
 
 ### Form
+
 The Form component allows you to create forms with various input types.
+
 ```typescript
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
@@ -109,7 +118,9 @@ export default AppForm;
 ```
 
 ### Dropdown
+
 The Dropdown component allows users to select an option from a dropdown list.
+
 ```typescript
 import React from 'react';
 import { Dropdown } from 'react-bootstrap';
