@@ -7,6 +7,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required for pushing to gh-pages
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v4

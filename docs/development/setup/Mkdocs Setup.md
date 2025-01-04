@@ -193,9 +193,11 @@ I'll guide you through deploying MkDocs to GitHub Pages. Here are the step-by-st
           branches:      
             - main  # or master, depending on your default branch 
         jobs:   
-          deploy:    runs-on: ubuntu-latest    
+          deploy:    runs-on: ubuntu-latest 
+          permissions:
+		      contents: write # Required for pushing to gh-pages   
           steps:      
-            - uses: actions/checkout@v3      
+            - uses: actions/checkout@v4      
             - uses: actions/setup-python@v4        
               with:          
                 python-version: '3.x'      
