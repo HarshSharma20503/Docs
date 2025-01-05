@@ -97,5 +97,3 @@ git push -u origin main
 - [[My Documentation/Frontend-Development/React-Bootstrap/Getting Started|Connect React-Bootstrap]]
 - [[Add environment variable in React-Vite]]
 - [Use Axios](obsidian://open?vault=Obsidian&file=My%20Documentation%2FPackages%2FAxios)
-- [[Create Routes]]
-- 
