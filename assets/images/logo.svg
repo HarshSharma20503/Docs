@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Black Background -->
+  <rect width="100" height="100" fill="#13131a"/>
+  
+  <!-- Circle -->
+  <circle cx="50" cy="50" r="35" fill="none" stroke="#e94444" stroke-width="4"/>
+  
+  <!-- DOCS text -->
+  <text x="50" y="57" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#e94444" font-weight="bold">DOCS</text>
+</svg>
